@@ -1,0 +1,25 @@
+USE master;
+GO
+
+CREATE DATABASE EcommerceDB;
+GO
+
+USE EcommerceDB;
+GO
+
+CREATE TABLE online_retail (
+    invoice_no      VARCHAR(20),
+    stock_code      VARCHAR(20),
+    description     VARCHAR(200),
+    quantity        INT,
+    invoice_date    DATETIME,
+    unit_price      DECIMAL(10,2),
+    customer_id     VARCHAR(20),
+    country         VARCHAR(50)
+);
+GO
+
+CREATE INDEX idx_customer ON online_retail(customer_id);
+CREATE INDEX idx_invoice  ON online_retail(invoice_no);
+CREATE INDEX idx_date     ON online_retail(invoice_date);
+GO
