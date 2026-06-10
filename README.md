@@ -41,4 +41,10 @@ Source: https://www.kaggle.com/datasets/mashlyn/online-retail-ii-uci
 2. Launch win-back campaign for 1,999 Lost Customers
 3. Upsell program for 35 Loyal High Value customers
 4. Increase Active Customer purchase frequency from 7 to 10 orders/year
-EOF
+
+## Dashboard Screenshots
+![EDA Analysis](screenshots/01_eda_full.png)
+![Customer Segments](screenshots/03_segments.png)
+![Power BI Page 1](screenshots/04_pbi_page1.png)
+![Power BI Page 2](screenshots/05_pbi_page2.png)
+![Power BI Page 3](screenshots/06_pbi_page3.png)
